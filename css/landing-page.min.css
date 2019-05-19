@@ -1,0 +1,273 @@
+/*!
+ * Content Design Principles - SAO PAULO / BRASIL  - Landing Page v1.0
+ * Copyright 2019 Design Principles
+ * Autors: ALAN FERNANDES E GUILHERME GONZALEZ
+ */
+ body {
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 700
+}
+
+header.masthead {
+    position: relative;
+    background-color: #18C9F5;
+    padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+    position: absolute;
+    background-color: #18C9F5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+    background: url(../img/bg-banner-1.png) no-repeat center center;
+    background-size: cover;
+}
+
+header.masthead h1 {
+    font-size: 2rem;
+    color: #333333;
+}
+
+header.masthead p{
+    color: #333333;
+}
+
+.form-control-lg {
+    height: calc(1.5em + 1rem + 4px);
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    border: 2px solid #333;
+}
+
+@media (min-width: 1382px)  {
+    header.masthead {
+        padding-top:12rem;
+        padding-bottom: 12rem
+    }
+
+    header.masthead h1 {
+        font-size: 3rem
+    }
+
+    .bg-light {
+        background-color: #f8f9fa!important;
+        padding: 0px;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    
+    .navbar-light .navbar-brand {
+        color: rgba(0,0,0,.9);
+        width: 185px;
+    }
+    
+    .navbar-light .navbar-toggler{
+        border: 0px;
+    }
+
+    .showcase .showcase-text, .ds-canvas .showcase-text  {
+        padding:7rem
+    }
+}
+
+@media (min-width: 320px)  {
+    header.masthead {
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+
+    header.masthead h1 {
+        font-size: 3rem
+    }
+
+    .bg-light {
+        background-color: #f8f9fa!important;
+        padding: 0px;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    
+    .navbar-light .navbar-brand {
+        color: rgba(0,0,0,.9);
+        width: 185px;
+    }
+    
+    .navbar-light .navbar-toggler{
+        border: 0px;
+    }
+
+    .showcase .showcase-text, .ds-canvas .showcase-text  {
+        padding:7rem
+    }
+
+    #DesignPrinciplesCanvas .showcase-img{
+        background-image: url(img/team-canvas.png);
+        background-size: 94% !important;
+        background-repeat: no-repeat;
+        background-position: 10px 35px;
+        min-height: 17rem;
+    }
+
+    .showcase, .ds-canvas {
+        padding-top: 4rem !important;
+    }
+
+    .testimonials {
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+
+    .call-to-action {
+        position: relative;
+        background-color: #18C9F5;
+        background-size: cover;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+}
+
+.showcase .showcase-text, .ds-canvas .showcase-text {
+    padding: 3rem
+}
+
+.showcase .showcase-img, .ds-canvas .showcase-img {
+    min-height: 30rem;
+    background-size: cover
+}
+
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem
+}
+
+.features-icons .features-icons-item {
+    max-width: 20rem
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+    font-size: 5rem
+}
+
+.testimonials .testimonial-item {
+    max-width: 18rem
+}
+
+.testimonials .testimonial-item img {
+    max-width: 12rem;
+    -webkit-box-shadow: 0 5px 5px 0 #adb5bd;
+    box-shadow: 0 5px 5px 0 #adb5bd
+}
+
+.call-to-action .overlay {position: absolute;background-color: #18C9F5;height: 100%;width: 100%;top: 0;left: 0;opacity: 0.1;background: url(../img/bg-banner-1.png) no-repeat center center;background-size: cover;}
+
+footer.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem
+}
+
+
+/* AJUSTES ESPECIFICOS */
+.btn-primary {
+    color: #333;
+    background-color: transparent;
+    border: 2px solid #333;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #087D9B;
+    border-color: #087D9B;
+}
+
+.text-primary {
+    color: #087D9B !important;
+}
+
+.showcase .showcase-text .makerline, .ds-canvas .showcase-text .makerline{
+    background-color: #087D9B;
+    width: 56px;
+    height: 3px;
+    margin-top: 10px !important;
+    margin-bottom: 18px !important;
+    margin: 0 auto;
+}
+
+.call-to-action .mb-4, .call-to-action .my-4 {
+    margin-bottom: 1.5rem!important;
+    color: #333;
+}
+
+.footer .list-inline{
+    display: none;
+}
+
+.footer .list-inline a{
+    color: #333;
+}
+
+@media (min-width: 1380px)  {
+
+    .navbar-light .navbar-brand {
+        color: rgba(0,0,0,.9);
+        width: 231px;
+        margin-right: 80px;
+    }
+
+    .navbar-light .navbar-toggler{
+        border: inherit;
+    }
+
+    .bg-light {
+        width: 100%;
+    }
+
+    header.masthead {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+
+    #DesignPrinciplesCanvas .showcase-img{
+        background-image: url(img/team-canvas.png);
+        background-repeat: no-repeat;
+        background-position: 10px 35px;
+        height: 500px;
+    }
+
+    .ds-canvas {
+        padding-top: 7rem !important;
+        padding-bottom: 5rem;
+        min-height: 800px !important;
+    }
+
+    .call-to-action {
+        position: relative;
+        background-color: #18C9F5;
+        background-size: cover;
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+    }
+
+    .testimonials {
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+
+}
